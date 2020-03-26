@@ -3,5 +3,11 @@
 #### 23 a 29 de março de 2020
 
 ### Tecnologias utilizadas
+#### BACKEND
+- Node
+- Express
+
+#### FRONTEND
+- React Js
 
 ### Funcionalidades
