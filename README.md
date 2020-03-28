@@ -14,3 +14,5 @@
 
 ### Funcionalidades
 - Cadastro de ONGs
+- Sessão de login para ONGs
+- Listagem e gerenciamento de incidentes de ONGs
