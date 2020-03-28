@@ -6,8 +6,11 @@
 #### BACKEND
 - Node
 - Express
+- Knex
+- Sqlite
 
 #### FRONTEND
 - React Js
 
 ### Funcionalidades
+- Cadastro de ONGs
