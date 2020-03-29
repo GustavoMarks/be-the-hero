@@ -11,6 +11,7 @@
 
 #### FRONTEND
 - React Js
+- Axios
 
 ### Funcionalidades
 - Cadastro de ONGs
