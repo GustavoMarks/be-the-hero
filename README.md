@@ -1,8 +1,8 @@
-# be-the-hero
+# Be The Hero
 ### Plataforma web/mobile para suporte a ONGs desenvolvida na Semana OmniStack 11.0 da [Rocketseat](https://rocketseat.com.br/)
 #### 23 a 29 de março de 2020
 
-### Tecnologias utilizadas
+### Principais tecnologias utilizadas
 #### BACKEND
 - Node
 - Express
@@ -13,7 +13,12 @@
 - React Js
 - Axios
 
-### Funcionalidades
+#### Mobile
+- React Native
+- Expo
+
+### Principais Funcionalidades
 - Cadastro de ONGs
 - Sessão de login para ONGs
 - Listagem e gerenciamento de incidentes de ONGs
+- Contactar ONGs por email e Whatsapp
