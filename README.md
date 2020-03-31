@@ -9,6 +9,8 @@
 - Knex
 - Sqlite
 - Celebrate
+- Jest
+- Supertest
 
 #### FRONTEND
 - React Js
