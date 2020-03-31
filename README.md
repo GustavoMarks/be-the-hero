@@ -16,6 +16,7 @@
 #### Mobile
 - React Native
 - Expo
+- Axios
 
 ### Principais Funcionalidades
 - Cadastro de ONGs
