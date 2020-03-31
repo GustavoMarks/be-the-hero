@@ -8,6 +8,7 @@
 - Express
 - Knex
 - Sqlite
+- Celebrate
 
 #### FRONTEND
 - React Js
