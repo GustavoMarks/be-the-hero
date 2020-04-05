@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .register-container .content{
@@ -52,4 +53,36 @@
 
 .register-container .content form .input-group input + input {
   margin-left: 8px;
+}
+
+/* Comportamento da tela em dispositivo mobile */
+@media only screen and (max-width: 1200px) {
+  .register-container{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    margin: auto auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .register-container .content{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+}
+
+@media only screen and (max-width: 442px){
+  .register-container .content form .input-group {
+    flex-wrap: wrap;
+  }
 }
