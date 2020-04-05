@@ -80,3 +80,12 @@ form textarea {
 .back-link:hover {
   opacity: 0.8;
 }
+
+/* Comportamento da tela em dispositivo mobile */
+@media only screen and (max-width: 1200px) {
+  body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}

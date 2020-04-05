@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logon-container section.form{
@@ -22,4 +23,30 @@
 .logon-container section.form h1 {
   font-size: 32px;
   margin-bottom: 32px;
+}
+
+/* Comportamento da tela em dispositivo mobile */
+@media only screen and (max-width: 1200px) {
+  .logon-container{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    margin: auto auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logon-container img {
+    max-width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .logon-container section.form{
+    max-width: 90vw;
+    margin-right: 0;
+    text-align: center;
+  }
 }
